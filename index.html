@@ -1,53 +1,363 @@
+
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
 <meta name="google-site-verification" content="Na4iJJ0A9r4nKd_kCkHPN-SoBJAoXSfEUBV0aK7gY70" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Official profile of Ishan Singh, a student and rowing athlete from Kolkata, West Bengal, India.">
-<title>Rower Ishan Singh Rajput| Rowing Athlete</title>
+
+<meta name="description" content="Official profile of Rower Ishan Singh Rajput, a student and competitive rowing athlete from Kolkata, West Bengal, India.">
+<meta name="author" content="Ishan Singh Rajput">
+
+<title>Rower Ishan Singh Rajput | Rowing Athlete</title>
+
 <style>
-:root{--bg:#0b1220;--panel:#121d31;--text:#f4f7fb;--muted:#b8c4d8;--accent:#79d4c2;--line:#2a3850}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-.wrap{width:min(100% - 32px,1000px);margin:auto}.nav{padding:20px 0;border-bottom:1px solid var(--line)}.nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{font-weight:800;letter-spacing:.3px}.nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-size:.95rem}
-.hero{padding:76px 0 58px;background:radial-gradient(ellipse at top right,#1b4050 0,transparent 52%)}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.8rem}.hero h1{font-size:clamp(2.4rem,7vw,4.6rem);line-height:1.06;letter-spacing:-1.8px;margin:14px 0}.hero p{max-width:680px;color:var(--muted);font-size:1.12rem}.pill{display:inline-block;border:1px solid #3a6d70;border-radius:999px;padding:7px 12px;color:var(--accent);font-size:.9rem;margin:10px 6px 0 0}
-section{padding:42px 0}.section-title{font-size:1.7rem;margin:0 0 18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.muted{color:var(--muted)}.item h3{margin:0 0 6px;font-size:1.08rem}.item p{margin:0;color:var(--muted)}.note{font-size:.9rem;color:var(--muted);border-left:3px solid var(--accent);padding-left:14px}
-footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.9rem}
-@media(max-width:650px){.grid{grid-template-columns:1fr}.hero{padding:54px 0 42px}.nav a{margin-left:8px;font-size:.85rem}}
+:root {
+  --bg: #0b1220;
+  --panel: #121d31;
+  --text: #f4f7fb;
+  --muted: #b8c4d8;
+  --accent: #79d4c2;
+  --line: #2a3850;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.65 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.wrap {
+  width: min(100% - 32px, 1000px);
+  margin: auto;
+}
+
+.nav {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.nav .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand {
+  font-weight: 800;
+  letter-spacing: .3px;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: .95rem;
+}
+
+.hero {
+  padding: 76px 0 58px;
+  background: radial-gradient(ellipse at top right, #1b4050 0, transparent 52%);
+}
+
+.eyebrow {
+  color: var(--accent);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: .8rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 7vw, 4.6rem);
+  line-height: 1.06;
+  letter-spacing: -1.8px;
+  margin: 14px 0;
+}
+
+.hero p {
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 1.12rem;
+}
+
+.pill {
+  display: inline-block;
+  border: 1px solid #3a6d70;
+  border-radius: 999px;
+  padding: 7px 12px;
+  color: var(--accent);
+  font-size: .9rem;
+  margin: 10px 6px 0 0;
+}
+
+section {
+  padding: 42px 0;
+}
+
+.section-title {
+  font-size: 1.7rem;
+  margin: 0 0 18px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.item h3 {
+  margin: 0 0 6px;
+  font-size: 1.08rem;
+}
+
+.item p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.note {
+  font-size: .9rem;
+  color: var(--muted);
+  border-left: 3px solid var(--accent);
+  padding-left: 14px;
+}
+
+.instagram-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+footer {
+  border-top: 1px solid var(--line);
+  padding: 26px 0;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+@media(max-width: 650px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 54px 0 42px;
+  }
+
+  .nav .wrap {
+    flex-wrap: wrap;
+  }
+
+  .nav a {
+    margin-left: 8px;
+    font-size: .85rem;
+  }
+
+  .brand {
+    font-size: .9rem;
+  }
+}
 </style>
 </head>
 
-<header class="nav"><div class="wrap"><div class="brand">ISHAN SINGH</div><nav><a href="#about">About</a><a href="#rowing">Rowing</a><a href="#values">Values</a></nav></div></header>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <div class="brand">ROWER ISHAN SINGH RAJPUT</div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#rowing">Rowing</a>
+      <a href="#values">Values</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-<section class="hero"><div class="wrap">
-<div class="eyebrow">Student • Rowing Athlete • Kolkata, India</div>
-<h1>Ishan Singh</h1>
-  <img src="ishan-singh-rowing.jpg"
-alt="Ishan Singh at the National Indoor Rowing Championship"
-style="width:220px;max-width:100%;height:auto;border-radius:16px;border:2px solid #79d4c2;margin:16px 0;">
-<p>A student and rowing athlete from Kolkata, West Bengal, building experience through competitive rowing, teamwork, discipline and leadership.</p>
-<span class="pill">Competitive Rowing</span><span class="pill">Team Leadership</span><span class="pill">Sports Administration</span>
-</div></section>
-<section id="about"><div class="wrap"><h2 class="section-title">About</h2><div class="card">
-<p>Ishan Singh is a student from Kolkata, West Bengal, India, with a strong interest in rowing and sports. Through school and club rowing, he has developed experience in teamwork, preparation, competition and the responsibilities that come with representing a team.</p>
-<p class="muted">This profile is intended to share verified public information about Ishan’s sporting journey. It does not publish private contact details.</p>
-  <p>I am Hindu by religion and belong to Kolkata, India.</p>
-</div></div></section>
-  <section>
-<div class="wrap">
-<h2 class="section-title">Rowing Club</h2>
-<div class="card">
-<p>I am a rower at Bengal Rowing Club (BRC), Kolkata.</p>
-</div>
-</div>
-  </section>
-<section id="rowing"><div class="wrap"><h2 class="section-title">Rowing & Competition</h2><div class="grid">
-<div class="card item"><h3>Indoor National Rowing Championship</h3><p>Participated in the 7th Indoor National Rowing Championship in Punjab and reported securing 14th position.</p></div>
-<div class="card item"><h3>Inter State Challenger National Championship</h3><p>Participated in the 8th Inter State Challenger National Rowing Championship in Bhopal in November 2025, representing West Bengal in Men’s Fours.</p></div>
-<div class="card item"><h3>School Rowing Leadership</h3><p>Served as a rowing captain at school, gaining experience in team coordination, discipline and responsibility.</p></div>
-<div class="card item"><h3>Behind the Competition</h3><p>Gained exposure to event documentation and administrative tasks alongside sporting participation.</p></div>
-</div></div></section>
-<section id="values"><div class="wrap"><h2 class="section-title">What Rowing Has Taught Me</h2><div class="card"><p>Rowing has helped me value consistency, teamwork, discipline and standing up for fair treatment. I aim to keep learning, improve through training and balance sport with my education.</p><p class="note">Competition names, dates, positions and representation should be checked against certificates or official records before this website is published.</p></div></div></section>
+
+<section class="hero">
+  <div class="wrap">
+
+    <div class="eyebrow">Student • Rowing Athlete • Kolkata, India</div>
+
+    <h1>Rower Ishan Singh Rajput</h1>
+
+    <img
+      src="ishan-singh-rowing.jpg"
+      alt="Ishan Singh Rajput at the National Indoor Rowing Championship"
+      style="width:220px;max-width:100%;height:auto;border-radius:16px;border:2px solid #79d4c2;margin:16px 0;"
+    >
+
+    <p>
+      A student and rowing athlete from Kolkata, West Bengal,
+      building experience through competitive rowing, teamwork,
+      discipline and leadership.
+    </p>
+
+    <span class="pill">Competitive Rowing</span>
+    <span class="pill">Team Leadership</span>
+    <span class="pill">Sports Administration</span>
+
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2 class="section-title">About</h2>
+
+    <div class="card">
+      <p>
+        Ishan Singh Rajput is a student from Kolkata, West Bengal,
+        India, with a strong interest in rowing and sports.
+        Through school and club rowing, he has developed experience
+        in teamwork, preparation, competition and the responsibilities
+        that come with representing a team.
+      </p>
+
+      <p class="muted">
+        This profile is intended to share verified public information
+        about Ishan's sporting journey. It does not publish private
+        contact details.
+      </p>
+
+      <p>I am Hindu by religion and belong to Kolkata, India.</p>
+    </div>
+  </div>
+</section>
+
+<section id="club">
+  <div class="wrap">
+    <h2 class="section-title">Rowing Club</h2>
+
+    <div class="card">
+      <p>I am a rower at Bengal Rowing Club (BRC), Kolkata.</p>
+    </div>
+  </div>
+</section>
+
+<section id="rowing">
+  <div class="wrap">
+    <h2 class="section-title">Rowing & Competition</h2>
+
+    <div class="grid">
+
+      <div class="card item">
+        <h3>Bengal Rowing Club Students' Rowing Championship 2026</h3>
+        <p>
+          Served as the School Rowing Captain of Hirendra Leela
+          Patranavis School (HLPS) and led the school's rowing team
+          during the 2026 championship. Our school received the
+          Best School Award at the competition.
+        </p>
+      </div>
+
+      <div class="card item">
+        <h3>Indoor National Rowing Championship</h3>
+        <p>
+          Participated in the 7th Indoor National Rowing Championship
+          in Punjab and reported securing 14th position.
+        </p>
+      </div>
+
+      <div class="card item">
+        <h3>Inter State Challenger National Championship</h3>
+        <p>
+          Participated in the 8th Inter State Challenger National
+          Rowing Championship in Bhopal in November 2025,
+          representing West Bengal in Men's Fours.
+        </p>
+      </div>
+
+      <div class="card item">
+        <h3>School Rowing Leadership</h3>
+        <p>
+          Served as a rowing captain at school, gaining experience
+          in team coordination, discipline and responsibility.
+        </p>
+      </div>
+
+      <div class="card item">
+        <h3>Behind the Competition</h3>
+        <p>
+          Gained exposure to event documentation and administrative
+          tasks alongside sporting participation.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="values">
+  <div class="wrap">
+    <h2 class="section-title">What Rowing Has Taught Me</h2>
+
+    <div class="card">
+      <p>
+        Rowing has helped me value consistency, teamwork, discipline
+        and standing up for fair treatment. I aim to keep learning,
+        improve through training and balance sport with my education.
+      </p>
+
+      <p class="note">
+        Competition names, dates, positions and representation should
+        be checked against certificates or official records before
+        this website is published.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="instagram">
+  <div class="wrap">
+    <h2 class="section-title">Connect</h2>
+
+    <div class="card">
+      <p>
+        Instagram:
+        <a
+          class="instagram-link"
+          href="https://www.instagram.com/rower_ishan_singh_rajput/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @rower_ishan_singh_rajput
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
 </main>
-<footer><div class="wrap">© <span id="year">2026</span> Ishan Singh · Personal athlete profile</div></footer>
-</body></html>
+
+<footer>
+  <div class="wrap">
+    © 2026 Rower Ishan Singh Rajput · Personal Athlete Profile
+  </div>
+</footer>
+
+</body>
+</html>
