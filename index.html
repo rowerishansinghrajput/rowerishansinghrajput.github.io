@@ -22,13 +22,9 @@
   --line: #2a3850;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
@@ -102,9 +98,7 @@ body {
   margin: 10px 6px 0 0;
 }
 
-section {
-  padding: 42px 0;
-}
+section { padding: 42px 0; }
 
 .section-title {
   font-size: 1.7rem;
@@ -124,9 +118,7 @@ section {
   gap: 16px;
 }
 
-.muted {
-  color: var(--muted);
-}
+.muted { color: var(--muted); }
 
 .item h3 {
   margin: 0 0 6px;
@@ -158,26 +150,11 @@ footer {
 }
 
 @media(max-width: 650px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hero {
-    padding: 54px 0 42px;
-  }
-
-  .nav .wrap {
-    flex-wrap: wrap;
-  }
-
-  .nav a {
-    margin-left: 8px;
-    font-size: .85rem;
-  }
-
-  .brand {
-    font-size: .9rem;
-  }
+  .grid { grid-template-columns: 1fr; }
+  .hero { padding: 54px 0 42px; }
+  .nav .wrap { flex-wrap: wrap; }
+  .nav a { margin-left: 8px; font-size: .85rem; }
+  .brand { font-size: .9rem; }
 }
 </style>
 </head>
@@ -187,10 +164,10 @@ footer {
 <header class="nav">
   <div class="wrap">
     <div class="brand">ROWER ISHAN SINGH RAJPUT</div>
-
     <nav>
       <a href="#about">About</a>
       <a href="#rowing">Rowing</a>
+      <a href="#certificates">Certificates</a>
       <a href="#values">Values</a>
     </nav>
   </div>
@@ -200,7 +177,6 @@ footer {
 
 <section class="hero">
   <div class="wrap">
-
     <div class="eyebrow">Student • Rowing Athlete • Kolkata, India</div>
 
     <h1>Rower Ishan Singh Rajput</h1>
@@ -220,14 +196,12 @@ footer {
     <span class="pill">Competitive Rowing</span>
     <span class="pill">Team Leadership</span>
     <span class="pill">Sports Administration</span>
-
   </div>
 </section>
 
 <section id="about">
   <div class="wrap">
     <h2 class="section-title">About</h2>
-
     <div class="card">
       <p>
         Ishan Singh Rajput is a student from Kolkata, West Bengal,
@@ -251,7 +225,6 @@ footer {
 <section id="club">
   <div class="wrap">
     <h2 class="section-title">Rowing Club</h2>
-
     <div class="card">
       <p>I am a rower at Bengal Rowing Club (BRC), Kolkata.</p>
     </div>
@@ -304,6 +277,38 @@ footer {
         <p>
           Gained exposure to event documentation and administrative
           tasks alongside sporting participation.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="certificates">
+  <div class="wrap">
+    <h2 class="section-title">Certificates & Recognition</h2>
+
+    <div class="grid">
+
+      <div class="card item">
+        <h3>8th Interstate Challenger & 45th Junior National Rowing Championship</h3>
+        <p>
+          Awarded a participation certificate by the Rowing
+          Federation of India for representing West Bengal as
+          a rower in the championship held from 26 to 30
+          November 2025.
+        </p>
+        <p style="margin-top:12px;color:#79d4c2;">
+          Issued digitally through DigiLocker.
+        </p>
+      </div>
+
+      <div class="card item">
+        <h3>Bengal Rowing Club Students' Rowing Championship 2026</h3>
+        <p>
+          School Rowing Captain of Hirendra Leela Patranavis
+          School (HLPS). The school received the Best School
+          Award at the championship.
         </p>
       </div>
 
